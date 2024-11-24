@@ -6,8 +6,8 @@
 }
 
 :root {
-    --colorDark1: #112D4E;
-    --colorDark2: #3F72AF;
+    --colorDark1: #38669a;
+    --colorDark2: #5c8fb3;
     --colorLight1: #DBE2EF;
     --colorLight2: #F9F7F7;
 }
@@ -16,7 +16,7 @@
     width:100vw;
     height:100vh;
     color: var(--colorLight2);
-    background-image: linear-gradient(160deg, #112d4e 0%, #3f72af 100%);;
+    background-image: url("/Img/weather.jpg");
 }
 
 h1 {
@@ -159,7 +159,7 @@ s
 .parameter{
     width:30%;
     max-width:200px;
-    background-color: rgba(219, 226, 239, 0.5);;
+    background-color: rgba(196, 211, 238, 0.5);;
     border-radius: 5px;
     padding:1rem;
     display: flex;
@@ -178,11 +178,13 @@ s
     font-size: 1.15rem;
     font-weight:600;
     text-transform: uppercase;
+    color: rgb(42, 38, 38);
 }
 
 .parameter p:last-of-type{
     font-size: 1rem;
     font-weight: 200;
+
 }
 
 .form-container{
